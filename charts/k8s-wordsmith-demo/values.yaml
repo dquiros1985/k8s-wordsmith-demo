@@ -1,17 +1,17 @@
 pullsecret: codefresh-generated-r.cfcr.io-cfcr-prod
 db:
     image:
-        name: r.cfcr.io/helmos/helmos/k8swordsmithdemo-db
+        name:  r.cfcr.io/dquiros/db
         tag: master
 
 api:
     image:
-        name: r.cfcr.io/helmos/helmos/k8swordsmithdemo-words
+        name:  r.cfcr.io/dquiros/words
         tag: master
     replicas: 5
 
 web:
     image:
-        name:  r.cfcr.io/helmos/helmos/k8swordsmithdemo-web
+        name:   r.cfcr.io/dquiros/web
         tag: master
     replicas: 1 
