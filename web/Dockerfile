@@ -12,4 +12,3 @@ CMD ["/dispatcher"]
 
 COPY --from=builder /go/dispatcher /
 COPY static /static/
-#
